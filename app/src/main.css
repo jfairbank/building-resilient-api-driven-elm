@@ -1,0 +1,130 @@
+/* @format */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande',
+    'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.875rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+pre {
+  margin: 0;
+}
+
+.counter-app {
+  text-align: center;
+}
+
+.counter-app button {
+  border: 1px solid #aaa;
+  cursor: pointer;
+  outline: none;
+}
+
+.counter-app button:active {
+  opacity: 0.5;
+}
+
+.album-app {
+  margin: 0 auto;
+  padding: 1.25rem 0;
+  width: 16.25rem;
+}
+
+.album-app h1 {
+  margin-bottom: 1.25rem;
+}
+
+.album-app ul {
+  margin: 0;
+  padding: 0;
+}
+
+.album-app .find-album input {
+  border: 1px solid #ccc;
+  border-radius: 0.1875rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.album-app .find-album button {
+  background: #369;
+  border-radius: 0.1875rem;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.75rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.album-app .find-album button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.album-app .find-album button:active {
+  outline: none;
+  opacity: 0.5;
+}
+
+.album-app .loading {
+  font-size: 1.875rem;
+  font-style: italic;
+  margin: 1.25rem 0;
+  text-align: center;
+  width: 15.625rem;
+}
+
+.album-app .album {
+  --size: 15.625rem;
+  margin-top: 2.5rem;
+  text-align: center;
+  width: var(--size);
+}
+
+.album-app .album h2 {
+  margin-bottom: 0.625rem;
+}
+
+.album-app .album img {
+  height: var(--size);
+  width: var(--size);
+}
+
+.album-app .album h3 {
+  margin-top: 0.625rem;
+}
+
+.album-app .error {
+  color: #a00;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1.25rem 0 0.625rem;
+}

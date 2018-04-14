@@ -1,0 +1,16 @@
+{
+  "name": "building-resilient-api-driven-elm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "syntax": "node scripts/syntax.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chokidar": "^2.0.2",
+    "shelljs": "^0.8.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.1"
+  }
+}

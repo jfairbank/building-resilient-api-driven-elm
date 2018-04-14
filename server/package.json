@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start":
+      "nodemon --exec 'elm-make --output app.js App/Main.elm && node index.js' -w index.js -w server.js -w App.elm",
+    "test:server": "json-server jazz-albums-test.json -p 3001"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "json-server": "^0.12.1",
+    "ramda": "^0.25.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "prettier": "^1.12.0"
+  }
+}
